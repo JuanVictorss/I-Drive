@@ -80,6 +80,13 @@ section {
   height: 750px;
 }
 
+.logoMarca img {
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  border-radius: 50%;
+}
+
 .secaoLogin {
   flex-direction: column;
   height: 680px;
