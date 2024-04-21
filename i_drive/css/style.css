@@ -30,6 +30,7 @@ header > nav {
 header > nav > ul {
   display: flex;
   gap: 15px;
+  margin-right: 100px;
 }
 
 header a {
@@ -108,7 +109,7 @@ section:nth-of-type(odd) {
 .secao1 > div h1 {
   position: absolute;
   top: 2%;
-  left: 33%;
+  left: 29%;
   font-size: 40px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -118,9 +119,9 @@ section:nth-of-type(odd) {
 .secao1 > .marcas > ul {
   position: absolute;
   top: 30%;
-  left: 28%;
+  left: 22%;
   display: flex;
-  gap: 15px;
+  gap: 27px;
 }
 
 .secao1 > .marcas > ul li img {
