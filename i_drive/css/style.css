@@ -266,3 +266,16 @@ main > .carros {
 .loginLogo {
   top: 100px;
 }
+
+section video {
+  height: 500px;
+  border-radius: 20px;
+}
+
+.secaoNoticia p {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 200px;
+  line-height: 1.6;
+}
