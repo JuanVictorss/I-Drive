@@ -81,7 +81,7 @@ section {
 }
 
 .logoMarca img {
-  margin: 5px;
+  margin-top: 5px;
   background-color: rgb(255, 255, 255);
   height: 200px;
   border-radius: 50%;
@@ -238,8 +238,6 @@ a:hover {
 .carros ul {
   display: flex;
 }
-main > .carros {
-}
 
 .carros li {
   flex: 1;
@@ -251,8 +249,13 @@ main > .carros {
   border-radius: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 50%;
+  width: 70%;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+.carros img:hover {
+  transform: scale(1.2);
 }
 
 .loginLogo {
@@ -266,7 +269,6 @@ main > .carros {
 .carros ul.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;
 }
 
 .loginLogo {
