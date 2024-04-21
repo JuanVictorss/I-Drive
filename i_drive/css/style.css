@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+/*HEADER*/
 header {
   display: flex;
   justify-content: space-between;
@@ -60,6 +61,15 @@ header .login {
   margin-bottom: 10px;
 }
 
+/*MAIN*/
+main {
+  text-align: center;
+  background-color: rgb(225, 17, 56);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /*section*/
 section {
   display: flex;
@@ -67,6 +77,14 @@ section {
   justify-content: center;
   position: relative;
   height: 750px;
+}
+
+.secaoLogin {
+  flex-direction: column;
+  height: 680px;
+}
+.loginLogo {
+  margin-bottom: 150px;
 }
 
 section:nth-of-type(odd) {
@@ -123,6 +141,7 @@ section:nth-of-type(odd) {
   color: black;
 }
 
+/*LOGIN*/
 form {
   display: flex;
   flex-direction: column;
@@ -165,14 +184,11 @@ button {
   cursor: pointer;
 }
 
+/*Footer*/
 footer {
-  background-color: #313131;
+  background-color: #000000;
   padding: 20px;
-}
-
-footer {
   display: flex;
-
   text-align: center;
 }
 
@@ -213,15 +229,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/*TOYOTA*/
-
-main {
-  text-align: center;
-  background-color: rgb(225, 17, 56);
-}
-
 .carros ul {
   display: flex;
+}
+main > .carros {
 }
 
 .carros li {
@@ -236,4 +247,22 @@ main {
   margin-bottom: 30px;
   width: 50%;
   height: auto;
+}
+
+.loginLogo {
+  position: relative;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  gap: 15px;
+}
+
+.carros ul.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.loginLogo {
+  top: 100px;
 }
